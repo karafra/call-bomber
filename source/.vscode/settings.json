@@ -105,7 +105,7 @@
     "typescript.surveys.enabled": false,
     "typescript.updateImportsOnFileMove.enabled": "never",
     "window.title": "${dirty}${activeEditorShort}${separator}${rootPath}${separator}",
-    "window.zoomLevel": 1.2,
+    "window.zoomLevel": 0,
     "workbench.colorTheme": "Atom One Dark",
     "workbench.commandPalette.history": 10,
     "workbench.editor.closeOnFileDelete": true,
