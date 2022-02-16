@@ -1,5 +1,5 @@
 [submodule "Frontend"]
     active=true
-    path=./source/Web/Frontend
+    path=source/Web/Frontend
     url=https://github.com/karafra/call-bomber-frontend.git
     branch=master
