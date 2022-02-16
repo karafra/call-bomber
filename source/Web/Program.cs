@@ -25,7 +25,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddSpaStaticFiles("Frontend/dist");
 
-builder.Services.AddContext<Context>(options => options.UseSqlServer(builder.Services.GetConnectionString(nameof(Context))));
+builder.Services.AddContext<Context>(options => options.UseSqlServer("Server=tcp:call-bomb.database.windows.net,1433;Initial Catalog=call-bomb;Persist Security Info=False;User ID=karafra;Password=hywEx3SjKY8Mvx8;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"));
 
 builder.Services.AddClassesMatchingInterfaces(typeof(IUserService).Assembly, typeof(IUserRepository).Assembly);
 

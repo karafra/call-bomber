@@ -1,5 +1,9 @@
 {
   "yaml.schemas": {
     "https://json.schemastore.org/github-workflow.json": "file:///home/karafra/Plocha/projects/CallBomb/.github/workflows/build.yaml"
-  }
+  },
+  "cSpell.words": [
+    "karafra",
+    "Serilog"
+  ]
 }
